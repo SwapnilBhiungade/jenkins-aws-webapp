@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/health', (req, res) => {
-    res.json({ status: 'UP' });
+    res.json({ status: 'DOWN' });
 });
 
 if (require.main === module) {
